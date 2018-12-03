@@ -1,0 +1,29 @@
+{
+  "name": "vue-wechat",
+  "description": "Wechat sdk for Vue.js.",
+  "version": "1.2.0",
+  "author": {
+    "name": "Emil Zhai",
+    "email": "root@derzh.com"
+  },
+  "keywords": [
+    "vue",
+    "wechat",
+    "weixin",
+    "wx",
+    "jssdk"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tinymins/vue-wechat.js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tinymins/vue-wechat.js/issues"
+  },
+  "homepage": "https://github.com/tinymins/vue-wechat.js#readme",
+  "files": [
+    "*"
+  ],
+  "main": "./index.js"
+}
