@@ -1,7 +1,7 @@
 {
   "name": "vue-wechat",
   "description": "Wechat sdk for Vue.js.",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "author": {
     "name": "Emil Zhai",
     "email": "root@derzh.com"
@@ -23,7 +23,10 @@
   },
   "homepage": "https://github.com/tinymins/vue-wechat.js#readme",
   "files": [
-    "*"
+    "src/*",
+    "*.md",
+    "*.js",
+    "*.json"
   ],
   "main": "./index.js"
 }
