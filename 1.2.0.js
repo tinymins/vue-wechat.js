@@ -12,4 +12,4 @@ const install = (Vue) => {
   Vue.prototype.$wechat = wechat;
 };
 
-export { install };
+export default { install };
