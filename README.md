@@ -32,6 +32,15 @@ new Vue({
 }).$mount('#app');
 ```
 
+Import original wechat sdk object:
+
+```js
+import wechat from 'vue-wechat/src';
+// import wechat from 'vue-wechat/src/1.2.0';
+
+wechat.previewImage({ urls: [''], current: '' });
+```
+
 ## usage
 
 Global use.
