@@ -19,6 +19,19 @@ new Vue({
 }).$mount('#app');
 ```
 
+Import specific version of wechat sdk:
+
+```js
+import Wechat from 'vue-wechat/1.2.0';
+
+Vue.use(Wechat);
+
+// ...
+new Vue({
+  render: h => h(App),
+}).$mount('#app');
+```
+
 ## usage
 
 Global use.
