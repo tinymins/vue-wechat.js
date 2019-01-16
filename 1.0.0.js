@@ -5,11 +5,11 @@
  * @modifier : Emil Zhai (root@derzh.com)
  * @copyright: Copyright (c) 2018 EM, Z.
  */
-import wechat from './src/jweixin-1.0.0.js';
+var wechat = require('./src/jweixin-1.0.0.js');
 
-const install = (Vue) => {
-  Vue.wechat = wechat;
-  Vue.prototype.$wechat = wechat;
+module.exports = {
+  install: function(Vue) {
+    Vue.wechat = wechat;
+    Vue.prototype.$wechat = wechat;
+  },
 };
-
-export default { install };
