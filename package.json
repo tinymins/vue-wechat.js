@@ -1,7 +1,7 @@
 {
   "name": "vue-wechat",
   "description": "Wechat sdk for Vue.js.",
-  "version": "1.4.3",
+  "version": "1.4.4",
   "author": {
     "name": "Emil Zhai",
     "email": "root@derzh.com"
