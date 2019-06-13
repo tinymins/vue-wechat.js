@@ -7,9 +7,11 @@
  */
 var wechat = require('./src/jweixin-1.2.0.js');
 
-module.exports = {
-  install: function(Vue) {
-    Vue.wechat = wechat;
-    Vue.prototype.$wechat = wechat;
-  },
+for (var key in wechat) {
+  module.exports[key] = wechat[key];
+}
+
+exports.install = function(Vue) {
+  Vue.wechat = wechat;
+  Vue.prototype.$wechat = wechat;
 };
