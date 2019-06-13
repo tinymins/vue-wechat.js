@@ -5,6 +5,6 @@
  * @modifier : Emil Zhai (root@derzh.com)
  * @copyright: Copyright (c) 2018 EM, Z.
  */
-import wechat from './jweixin-1.4.0.js';
+import wechat from './jweixin-1.5.0.js';
 
 export default wechat;
