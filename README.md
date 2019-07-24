@@ -35,8 +35,9 @@ new Vue({
 Import original wechat sdk object:
 
 ```js
-import * as wechat from 'vue-wechat';
-// import * as wechat from 'vue-wechat/1.2.0';
+import { wechat } from 'vue-wechat';
+// import { wx } from 'vue-wechat';
+// import { wechat } from 'vue-wechat/1.2.0';
 
 wechat.previewImage({ urls: [''], current: '' });
 ```
