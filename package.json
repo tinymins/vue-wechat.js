@@ -22,8 +22,10 @@
     "url": "https://github.com/tinymins/vue-wechat.js/issues"
   },
   "homepage": "https://github.com/tinymins/vue-wechat.js#readme",
+  "typings": "types/index.d.ts",
   "files": [
     "src/*",
+    "types/*.d.ts",
     "*.md",
     "*.js",
     "*.json"
