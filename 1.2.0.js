@@ -5,7 +5,7 @@
  * @modifier : Emil Zhai (root@derzh.com)
  * @copyright: Copyright (c) 2018 EM, Z.
  */
-var wechat = require('./src/jweixin-1.2.0.js');
+var wechat = require('sdk-wechat/1.2.0.js');
 
 exports.install = function(Vue) {
   Vue.wechat = wechat;

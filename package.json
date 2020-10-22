@@ -24,11 +24,15 @@
   "homepage": "https://github.com/tinymins/vue-wechat.js#readme",
   "typings": "types/index.d.ts",
   "files": [
-    "src/*",
     "types/*.d.ts",
+    "src/*",
+    "dist/*",
     "*.md",
     "*.js",
     "*.json"
   ],
+  "dependencies": {
+    "sdk-wechat": "^1.0.4"
+  },
   "main": "./index.js"
 }
